@@ -3,12 +3,49 @@ body, html {
     height: 100%;
 }
 
-.bg {
-  background-image: url("/images/sun_clouds.jpg");
+.john812 {
+  background-image: url('/images/sun_clouds.jpg');
+  height: 450px;
+
+  width: 100%;
+  background-repeat: no-repeat;
+
+  background-position: center center;
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: center;
 }
 
 #j812 {
   font-family: "palatino linotype", serif;
   font-weight: bold;
   font-size: 58px;
+  padding-top: 250px;
+}
+
+#john812 {
+  font-size: 22px;
+  font-family: "open sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding-top: 50px;
+}
+
+.mark1615 {
+  background: #eda5a6;
+  text-align: center;
+}
+
+#m1615 {
+  width: 500px;
+  letter-spacing: 0.2em;
+  font-size: 26px;
+  font-family: "palatino linotype", serif;
+  color: #544D00;
 }

@@ -17,6 +17,11 @@ defmodule ForallWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/about", AboutController, :index
+    get "/services", ServicesController, :index
+    get "/donate", DonateController, :index
+    get "/events", EventsController, :index
+    get "/contact", ContactController, :index
   end
 
   # Other scopes may use custom stacks.
