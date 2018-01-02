@@ -1,6 +1,27 @@
 /* This file is for your main application css. */
+@import "bootstrap";
+
 body, html {
     height: 100%;
+}
+
+nav {
+  font-family: "palatino linotype", serif;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font: normal normal normal 12px/1.4em 'open sans',sans-serif;
+}
+
+.navbar .navbar-nav .nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.navbar .navbar-nav > .active > a, .nav-link:hover {
+  color: #A99B00 !important;
 }
 
 .john812 {
