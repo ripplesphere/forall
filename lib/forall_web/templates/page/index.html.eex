@@ -6,8 +6,70 @@
 </div>
 <div class="row" style="min-width: 1028px;">
   <div class="col mark1615">
-    <div id="m1615">
-      He said to them: "Go into all the World and Preach the Gospel to all Creation".
+    <div id="mark1615_txt">
+      He said to them: "Go into all the World and<br>
+      Preach the Gospel to all Creation".
+    </div>
+    <div id="mark1615_ref">
+      Mark 16.15
+    </div>
+    <div id="we_all_should">
+      We all should be involved in praying with our families, friends and our community.<br>
+      We are called to be Disciples of Christ.<br>
+      The vision of the ministry is to go into nursing homes, hospitals, shelter homes and share the Word of God to<br>
+      all who reside there, to let them know they are loved, important and<br>
+      not forgotten.<br>
+      Jesus wants them to know His mercy and grace is always available, it is never too late to receive Him as<br>
+      Lord and Savior.<br>
     </div>
   </div>
+</div>
+
+<div id="home_cards" class="row">
+    <div class="col home_card_group">
+      <div class="card-group">
+
+        <div class="card home" style="width: 18rem;">
+          <img class="card-img-top" src="/images/home_about.webp" alt="home_about">
+          <div class="card-body">
+            <h5 class="card-title">ABOUT OUR CHURCH</h5>
+            <p class="card-text home">
+              <hr class="hr_home_cards">
+              A & Z God's Ministry For All People is a Bible preaching ministry. 
+              Our mission is to abide in Christ Jesus, love others as you love yourself.
+            </p>
+          </div>
+        </div>
+        <div class="card home" style="width: 18rem;">
+          <img class="card-img-top" src="/images/home_youth.webp" alt="home_youth">
+          <div class="card-body">
+            <h5 class="card-title">YOUTH MINISTRIES</h5>
+            <p class="card-text">
+            <hr class="hr_home_cards">
+              It is part of our mission to connect teenagers to God. Teach children that 
+              the most important thing in the entire world is a personal relationship 
+              with Jesus Christ and have faith.
+            </p>
+          </div>
+        </div>
+        <div class="card home" style="width: 18rem;">
+          <img class="card-img-top" src="/images/home_services.webp" alt="home_services">
+          <div class="card-body">
+            <h5 class="card-title">SERVICES</h5>
+            <p class="card-text home">
+              <hr class="hr_home_cards">
+              <ul>
+                <li>Bible Studies</li>
+                <li>Worship Services</li>
+                <li>Spiritual Guidance</li>
+                <li>Memorial Services</li>
+                <li>Weddings</li>
+                <li>Baptisms</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
 </div>

@@ -2,16 +2,15 @@
 @import "bootstrap";
 
 body, html {
-    height: 100%;
 }
 
 nav {
   font-family: "palatino linotype", serif;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font: normal normal normal 12px/1.4em 'open sans',sans-serif;
+}
+
+header {
+  padding-left: 170px;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -63,10 +62,33 @@ nav {
   text-align: center;
 }
 
-#m1615 {
-  width: 500px;
+#mark1615_txt {
   letter-spacing: 0.2em;
   font-size: 26px;
   font-family: "palatino linotype", serif;
   color: #544D00;
+}
+
+#we_all_should {
+  padding-top: 50px;
+  padding-left: 300px;
+  text-align: left;
+  font-size: 16px;
+  font-style: italic;
+  color: #FFF47F;
+  line-height: 1.5em;
+  font-family: "open sans", sans-serif;
+}
+
+.home_card_group {
+  padding: 0;
+  background: #eda5a6;
+}
+
+.card.home {
+  border: 0;
+}
+
+div.card-body {
+  background-color: #e1b0b5;
 }
