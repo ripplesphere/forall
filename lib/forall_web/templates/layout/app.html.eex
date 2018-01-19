@@ -51,6 +51,52 @@
         <%= render @view_module, @view_template, assigns %>
       </main>
 
+      <footer>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-3">
+            <span class="footer_title">ABOUT US</span><br><br>
+            <span class="footer_text">
+              A Non-profit organization that provides services to Nursing Homes, Shelter Homes, 
+              worships and preaches the Word of God.<br>
+              <br>
+              All our Services are provided in English and Portuguese.
+            </span>
+          </div>
+          <div class="col-1">
+            <p class="vertical_rule"></p>
+          </div>
+          <div class="col-3">
+            <span class="footer_title">ADDRESS</span><br>
+            <span class="footer_text">
+              1-508-297-1829<br>
+              azgodsministryforallpeople@gmail.com<br>
+              <br>
+              2 Canton Street, BLD. A-4<br>
+              Stoughton, MA 02072<br>
+                                and<br>
+              418 Belmont Street<br>
+              Brockton, MA  02301
+            </span>
+          </div>
+          <div class="col-2 align-self-end">
+                    <a href="https://www.facebook.com/AZ-Gods-Ministry-for-All-People-398611063640967/" 
+                        class="p-1" target="_blank">
+                      <img src="images/facebook_icon.png" alt="facebook icon">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UChvLWvQ39sgv43qn1xighyQ" class="p-1" target="_blank">
+                      <img src="images/youtube_icon.png" alt="youtube icon">
+                    </a>
+                    <a href="https://twitter.com/azgodsministry" class="p-1" target="_blank">
+                      <img src="images/twitter_icon.png" alt="twitter icon">
+                    </a>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+
+      </footer>
+
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

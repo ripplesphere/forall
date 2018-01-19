@@ -1,13 +1,11 @@
-<div class="row" style="min-width: 1028px;">
-  <div class="col john812">
-      <div id="j812">I am the Light of the World</div>
-      <div id="john812">John 8:12</div>
+<div id="about_row" class="row  justify-content-center">
+  <div id="about_col" class="col-lg-3">
+      <div id="about_us">ABOUT US</div>
+      <div id="about_text_va">
+        <div id="about_text">
+        A&Z God's Ministry for All People is hope that is far more than a religion, it’s the church of Christ, that seeks to heal the broken and lost souls that fate brings to its doors.
+        </div>
+      </div>
   </div>
 </div>
-<div class="row" style="min-width: 1028px;">
-  <div class="col mark1615">
-    <div id="m1615">
-      He said to them: "Go into all the World and Preach the Gospel to all Creation".
-    </div>
-  </div>
-</div>
+

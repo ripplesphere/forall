@@ -4,13 +4,17 @@
 body, html {
 }
 
-nav {
-  font-family: "palatino linotype", serif;
-  font: normal normal normal 12px/1.4em 'open sans',sans-serif;
+.container-fluid {
+  padding: 0px;
 }
 
 header {
   padding-left: 170px;
+}
+
+nav {
+  font-family: "palatino linotype", serif;
+  font: normal normal normal 12px/1.4em 'open sans',sans-serif;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -23,22 +27,41 @@ header {
   color: #A99B00 !important;
 }
 
+footer {
+  background-color: #2f2e2e;
+  color: #CC1013;
+  padding-bottom: 20px;
+}
+
+.footer_title {
+  font-size: 18px;
+  font-family: "palatino linotype", serif;
+}
+
+.footer_text {
+  font-size: 12px;
+  font-family: "open sans", sans-serif;
+  line-height: 1.5em;
+}
+
+.vertical_rule {
+  margin-top: 50px;
+  margin-right: 40px;
+  border-right: solid 1px #a8e0f4;
+  height: 60%;
+}
+
 .john812 {
   background-image: url('/images/sun_clouds.jpg');
   height: 450px;
-
   width: 100%;
   background-repeat: no-repeat;
-
   background-position: center center;
   background-attachment: fixed;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
-
   -o-background-size: cover;
   background-size: cover;
-
   text-align: center;
 }
 
@@ -81,14 +104,49 @@ header {
 }
 
 .home_card_group {
-  padding: 0;
   background: #eda5a6;
 }
 
 .card.home {
   border: 0;
+  padding: 15px;
+  background: #eda5a6;
 }
 
 div.card-body {
   background-color: #e1b0b5;
+}
+
+hr {
+  width: 100px;
+  height: 1px;
+  background: #a8e0f4;
+}
+
+#about_col {
+  background: #6b9de8;
+}
+
+#about_us {
+  letter-spacing: 0.2em;
+  font-size: 46px;
+  color: #8B0000;
+  font-family: "palatino linotype", serif;
+  text-align: center;
+}
+
+#about_text_va {
+  width: 100%;
+  background: green;
+  text-align: center;
+}
+
+#about_text {
+  width: 300px;
+  background: blue;
+  text-align: center;
+  font-size: 21px;
+  color: #880A0C;
+  line-height: 1.5em;
+  font-family: "open sans", sans-serif;
 }
