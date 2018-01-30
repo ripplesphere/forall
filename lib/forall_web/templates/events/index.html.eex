@@ -1,13 +1,87 @@
-<div class="row" style="min-width: 1028px;">
-  <div class="col john812">
-      <div id="j812">I am the Light of the World</div>
-      <div id="john812">John 8:12</div>
+<div class="row justify-content-center align-items-center events_faithful" style="min-width: 1028px;">
+  <div class="col-lg-6">
+      <div id="events_faithful_title">EVENTS</div>
+      <div id="events_faithful_text" class="mt-4">
+        Daily visits to Nursing Homes and Hospitals.<br>
+        Spiritual guidance services weekly and memorial services when requested.
+      </div>
   </div>
 </div>
-<div class="row" style="min-width: 1028px;">
-  <div class="col mark1615">
-    <div id="m1615">
-      He said to them: "Go into all the World and Preach the Gospel to all Creation".
+<br><br><br>
+<div id="events_cards" class="row justify-content-center">
+    <div class="col-10 events_card_group">
+      <div class="card-group">
+
+        <div class="card events">
+          <img class="card-img-top" src="/images/tony_in_prayer.webp" alt="events_about">
+          <div class="card-body events text-center">
+            <h5 class="card-title">TV MINISTRY</h5>
+            <p class="card-text events">
+              Weekly sermons recorded for TV program
+            </p>
+          </div>
+        </div>
+
+        <div class="card events">
+          <img class="card-img-top" src="/images/joyous_hands.webp" alt="Worship Services">
+          <div class="card-body events text-center">
+            <h5 class="card-title">Worship Services</h5>
+            <p class="card-text">
+              Every Tuesday, Friday and Sunday
+            </p>
+          </div>
+        </div>
+
+        <div class="card events">
+          <img class="card-img-top" src="/images/funeral_services.webp" alt="Funeral Services">
+          <div class="card-body events">
+            <h5 class="card-title text-center">Funeral Services</h5>
+            <p class="card-text events">
+              Funeral Home and and cemetery
+            </p>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
+</div>
+
+<div id="events_cards" class="row justify-content-center">
+    <div class="col-10 events_card_group">
+      <div class="card-group">
+
+        <div class="card events">
+          <img class="card-img-top" src="/images/spiritual_guidance.webp" 
+                alt="Spiritual Guidance Support">
+          <div class="card-body events">
+            <h5 class="card-title text-center">Spiritual Guidance Support</h5>
+            <p class="card-text events">
+              Weekly visits to Shelter Homes
+            </p>
+          </div>
+        </div>
+
+       <div class="card events">
+          <img class="card-img-top" src="/images/helping_elderly.webp" alt="Helping the Elderly">
+          <div class="card-body events">
+            <h5 class="card-title text-center">Helping the Elderly</h5>
+            <p class="card-text events">
+              Daily visits to different nursing homes.
+            </p>
+          </div>
+        </div>
+
+       <div class="card events">
+          <img class="card-img-top" src="/images/marriage_preparation.webp" 
+                alt="Marriage Preparation Course">
+          <div class="card-body events">
+            <h5 class="card-title text-center">Marriage Preparation Course</h5>
+            <p class="card-text events">
+              Call or email to schedule
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
 </div>

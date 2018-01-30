@@ -1,13 +1,45 @@
-<div class="row" style="min-width: 1028px;">
-  <div class="col john812">
-      <div id="j812">I am the Light of the World</div>
-      <div id="john812">John 8:12</div>
+<div class="row justify-content-center align-items-center services_prayer" style="min-width: 1028px;">
+  <div class="col-lg-6">
+      <div id="services_prayer_title">SERVICES & SERMONS</div>
+      <div id="services_prayer_text" class="mt-4">
+        Behind the A&Z God's Ministry for All People lies hope Without religion and no walls.
+        Pastor Tony Freitas and his wife Zenalia with our dedicated volunteers bring encouragement,
+        prayers faith, and the healing touch of Christ to those who are in Nursing Homes, 
+        Homeless Shelters and Hospitals.
+      </div>
   </div>
 </div>
-<div class="row" style="min-width: 1028px;">
-  <div class="col mark1615">
-    <div id="m1615">
-      He said to them: "Go into all the World and Preach the Gospel to all Creation".
+
+<div class="row">
+  <div class="col my-4">
+    <div id="services_welcome_title" class="text-center">
+      We welcome you and your family to come join our Ministry!
+    </div>
+    <hr id="services">
+    <div id="services_welcome_text" class="text-center">
+      Worship Service every Sunday at 11:00 AM in English<br>
+      Every Tuesday and Friday at 7:00 PM in Portuguese
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center my-5">
+  <div class="col-9">
+    <img class="float-left pr-5" src="images/praying_together.webp" alt="Together in prayer">
+    <div class="h-100">
+      <h6 id="services_hours_title"><u>HOURS:</u></h6>
+      <br>
+      <div id="services_hours_text">
+        SUNDAY SERVICES<br>
+        Every Sunday from 11:00am - 12:00pm<br>
+        <br>
+        Every Tuesday and Friday from 7:00 pm - 8:15pm<br>
+        <br>
+        CHILDREN'S SERVICES<br>
+        Time varies (based on school vacation). Call for time schedule.<br>
+        OTHER SERVICES<br>
+        Bible courses and Spiritual guidance services by appointment.<br>
+      </div>
     </div>
   </div>
 </div>

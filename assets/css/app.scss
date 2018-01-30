@@ -53,7 +53,7 @@ footer {
 
 .john812 {
   background-image: url('/images/sun_clouds.jpg');
-  height: 450px;
+  height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -69,7 +69,7 @@ footer {
   font-family: "palatino linotype", serif;
   font-weight: bold;
   font-size: 58px;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 #john812 {
@@ -103,7 +103,7 @@ footer {
   font-family: "open sans", sans-serif;
 }
 
-.home_card_group {
+#home_cards {
   background: #eda5a6;
 }
 
@@ -113,7 +113,7 @@ footer {
   background: #eda5a6;
 }
 
-div.card-body {
+div.card-body.home {
   background-color: #e1b0b5;
 }
 
@@ -123,7 +123,7 @@ hr {
   background: #a8e0f4;
 }
 
-#about_col {
+#about_row {
   background: #6b9de8;
 }
 
@@ -135,18 +135,215 @@ hr {
   text-align: center;
 }
 
-#about_text_va {
-  width: 100%;
-  background: green;
-  text-align: center;
-}
-
 #about_text {
-  width: 300px;
-  background: blue;
   text-align: center;
   font-size: 21px;
   color: #880A0C;
   line-height: 1.5em;
+  font-family: "open sans", sans-serif;
+}
+
+.card.about {
+  border: 0;
+}
+
+.card-title.about {
+  letter-spacing: 0.2em;
+  font-family: "palatino linotype", serif;
+  color: #544D00;
+}
+
+.card-text.about {
+  line-height: 1.5em;
+  font-size: 14px;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+}
+
+.about_good_news_title {
+  letter-spacing: 0.2em;
+  font-size: 25px;
+  font-family: "palatino linotype", serif;
+  color: #544D00;
+}
+
+.about_good_news_scripture {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+}
+
+.about_good_news_ref {
+  font-size: 18px;
+  font-family: "palatino linotype", serif;
+  color: #544D00;
+}
+
+.services_prayer{
+  background-image: url('/images/tony_in_prayer.webp');
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+#services_prayer_title {
+  letter-spacing: 0.2em;
+  font-size: 30px;
+  font-style: italic;
+  color: #8B0000;
+  font-family: "palatino linotype", serif;
+}
+
+#services_prayer_text {
+  font-style: italic;
+  line-height: 1.5em;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+  font-size: 14px;
+}
+
+#services_welcome_title {
+  color: #8B0000;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: "palatino linotype", serif;
+}
+
+hr#services {
+  width: 200px;
+  height: 5px;
+  border-radius: 7px;
+  background: #8B0000;
+}
+
+#services_welcome_text {
+  letter-spacing: 0.2em;
+  font-size: 19px;
+  font-family: "palatino linotype", serif;
+  color: #544D00;
+}
+
+#services_hours_title {
+  letter-spacing: 0.2em;
+  color: #544D00;
+  font-size: 18px;
+  font-family: "palatino linotype", serif;
+}
+
+#services_hours_text {
+  line-height: 1.5em;
+  font-size: 14px;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+}
+
+.donate_sponsor {
+  background-image: url('/images/barley_field.jpg');
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+#donate_barley_title {
+  letter-spacing: 0.2em;
+  color: #8B0000;
+  font-size: 30px;
+  font-family: "palatino linotype", serif;
+}
+
+#donate_barley_text {
+  font-size: 19px;
+  line-height: 1.5em;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+}
+
+.card.donate {
+  border: 0;
+}
+
+.card-title.donate {
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+}
+
+#hr_donate_cards {
+  width: 80px;
+  height: 1px;
+  background: #a8e0f4;
+}
+
+#card-text.donate {
+  line-height: 1.5em;
+  font-size: 14px;
+  font-family: "open sans", sans-serif;
+  color: #440506;
+}
+ 
+svg {
+  stroke: rgba(68, 5, 6, 1);
+  fill: #440506;
+  fill-opacity: 0;
+}
+
+#donate_change_title {
+  color: #CC1013;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  font-family: "open sans", sans-serif;
+}
+
+#donate_change_text {
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-family: "open sans", sans-serif;
+}
+
+.events_faithful {
+  background-image: url('/images/god_is_faithful.jpg');
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+#events_faithful_title {
+  letter-spacing: 0.2em;
+  color: #880A0C;
+  font-size: 30px;
+  font-family: "palatino linotype", serif;
+}
+
+#events_faithful_text {
+  color: #8B0000;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 14px;
   font-family: "open sans", sans-serif;
 }

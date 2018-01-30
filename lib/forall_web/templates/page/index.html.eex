@@ -25,13 +25,13 @@
   </div>
 </div>
 
-<div id="home_cards" class="row">
-    <div class="col home_card_group">
+<div id="home_cards" class="row justify-content-center">
+    <div class="col-10 home_card_group">
       <div class="card-group">
 
-        <div class="card home" style="width: 18rem;">
-          <img class="card-img-top" src="/images/home_about.webp" alt="home_about">
-          <div class="card-body">
+        <div class="card home">
+          <img class="card-img-top" src="/images/reading_bible.webp" alt="home_about">
+          <div class="card-body home text-center">
             <h5 class="card-title">ABOUT OUR CHURCH</h5>
             <p class="card-text home">
               <hr class="hr_home_cards">
@@ -40,9 +40,9 @@
             </p>
           </div>
         </div>
-        <div class="card home" style="width: 18rem;">
-          <img class="card-img-top" src="/images/home_youth.webp" alt="home_youth">
-          <div class="card-body">
+        <div class="card home">
+          <img class="card-img-top" src="/images/children_reading.webp" alt="home_youth">
+          <div class="card-body home text-center">
             <h5 class="card-title">YOUTH MINISTRIES</h5>
             <p class="card-text">
             <hr class="hr_home_cards">
@@ -52,13 +52,13 @@
             </p>
           </div>
         </div>
-        <div class="card home" style="width: 18rem;">
+        <div class="card home">
           <img class="card-img-top" src="/images/home_services.webp" alt="home_services">
-          <div class="card-body">
-            <h5 class="card-title">SERVICES</h5>
+          <div class="card-body home">
+            <h5 class="card-title text-center">SERVICES</h5>
             <p class="card-text home">
               <hr class="hr_home_cards">
-              <ul>
+              <ul class="ml-3">
                 <li>Bible Studies</li>
                 <li>Worship Services</li>
                 <li>Spiritual Guidance</li>
