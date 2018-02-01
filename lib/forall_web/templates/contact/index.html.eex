@@ -1,13 +1,33 @@
-<div class="row" style="min-width: 1028px;">
-  <div class="col john812">
-      <div id="j812">I am the Light of the World</div>
-      <div id="john812">John 8:12</div>
+<div class="row justify-content-center align-items-center contact_ways" style="min-width: 1028px;">
+  <div class="col-lg-6">
+      <div id="contact_ways_title">CONTACT</div>
+      <div id="contact_ways_text" class="mt-4">
+        There are many ways for you to be in  contact  with our ministry. Reach out to 
+        us by phone, email, or you can even send us a private message on facebook or 
+        twitter and let us know how we can help.
+      </div>
   </div>
 </div>
-<div class="row" style="min-width: 1028px;">
-  <div class="col mark1615">
-    <div id="m1615">
-      He said to them: "Go into all the World and Preach the Gospel to all Creation".
-    </div>
+
+<div class="row">
+  <div class="col align-self-end m-3">
+    <div class="m-3">2 Canton Street, BLD. A-4<br>
+    Stoughton, MA 02072<br></div>
+    <img src="/images/stoughton_location.png"  alt="Stoughton location">
+    <div class="m-3">418 Belmont Street<br>
+    Brockton, MA 02301<br></div>
+    <img src="/images/brockton_location.png"  alt="Brockton location">
+  </div>
+  <div class="col text-center m-3">
+    <br>
+    <img src="/images/phone.png"  alt="phone: 508-297-1829"><br>
+    Tel: 508-297-1829
+    <hr>
+    <img src="/images/envelop.png"  alt="envelop"><br>
+    azgodsministryforallpeople@gmail.com
+    <hr>
+    <img src="/images/postcard.png"  alt="postcard"><br>
+    P.O.Box 543<br>
+    South Easton, MA 02375
   </div>
 </div>

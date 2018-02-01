@@ -7,7 +7,9 @@
       </div>
   </div>
 </div>
-<br><br><br>
+
+<br><br>
+
 <div id="events_cards" class="row justify-content-center">
     <div class="col-10 events_card_group">
       <div class="card-group">
@@ -15,8 +17,8 @@
         <div class="card events">
           <img class="card-img-top" src="/images/tony_in_prayer.webp" alt="events_about">
           <div class="card-body events text-center">
-            <h5 class="card-title">TV MINISTRY</h5>
-            <p class="card-text events">
+            <h5 class="card-title events">TV MINISTRY</h5>
+            <p class="card-text events text-center">
               Weekly sermons recorded for TV program
             </p>
           </div>
@@ -25,8 +27,8 @@
         <div class="card events">
           <img class="card-img-top" src="/images/joyous_hands.webp" alt="Worship Services">
           <div class="card-body events text-center">
-            <h5 class="card-title">Worship Services</h5>
-            <p class="card-text">
+            <h5 class="card-title events">Worship Services</h5>
+            <p class="card-text text-center">
               Every Tuesday, Friday and Sunday
             </p>
           </div>
@@ -35,8 +37,8 @@
         <div class="card events">
           <img class="card-img-top" src="/images/funeral_services.webp" alt="Funeral Services">
           <div class="card-body events">
-            <h5 class="card-title text-center">Funeral Services</h5>
-            <p class="card-text events">
+            <h5 class="card-title events text-center">Funeral Services</h5>
+            <p class="card-text events text-center">
               Funeral Home and and cemetery
             </p>
           </div>
@@ -54,8 +56,8 @@
           <img class="card-img-top" src="/images/spiritual_guidance.webp" 
                 alt="Spiritual Guidance Support">
           <div class="card-body events">
-            <h5 class="card-title text-center">Spiritual Guidance Support</h5>
-            <p class="card-text events">
+            <h5 class="card-title events text-center">Spiritual Guidance Support</h5>
+            <p class="card-text events text-center">
               Weekly visits to Shelter Homes
             </p>
           </div>
@@ -64,8 +66,8 @@
        <div class="card events">
           <img class="card-img-top" src="/images/helping_elderly.webp" alt="Helping the Elderly">
           <div class="card-body events">
-            <h5 class="card-title text-center">Helping the Elderly</h5>
-            <p class="card-text events">
+            <h5 class="card-title events text-center">Helping the Elderly</h5>
+            <p class="card-text events text-center">
               Daily visits to different nursing homes.
             </p>
           </div>
@@ -75,8 +77,8 @@
           <img class="card-img-top" src="/images/marriage_preparation.webp" 
                 alt="Marriage Preparation Course">
           <div class="card-body events">
-            <h5 class="card-title text-center">Marriage Preparation Course</h5>
-            <p class="card-text events">
+            <h5 class="card-title events text-center">Marriage Preparation Course</h5>
+            <p class="card-text events text-center">
               Call or email to schedule
             </p>
           </div>
@@ -85,3 +87,4 @@
       </div>
     </div>
 </div>
+<br>

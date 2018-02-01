@@ -347,3 +347,61 @@ svg {
   font-size: 14px;
   font-family: "open sans", sans-serif;
 }
+
+#events_cards {
+}
+
+.card.events {
+  border: 0;
+  padding: 15px;
+}
+
+div.card-body.events {
+  background-color: rgba(168, 224, 244, 0.19);
+}
+.card-title.events {
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "open sans", sans-serif;
+}
+
+.card-text.events {
+  color: #000000;
+  font-size: 14px;
+  font-family: "open sans", sans-serif;
+}
+
+.contact_ways {
+  background-image: 
+    linear-gradient(to bottom, rgba(70,182,224,0.5), rgba(70,182,224,0.5)),
+    url('/images/praying_together.webp');
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+#contact_ways_title {
+  letter-spacing: 0.2em;
+  color: #880A0C;
+  font-size: 30px;
+  font-family: "palatino linotype", serif;
+}
+
+#contact_ways_text {
+  color: #000000;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 19px;
+  font-family: "open sans", sans-serif;
+}
+
+
+
