@@ -28,7 +28,7 @@
                 We greatly appreciate your support.
               <% else %>
                 <form action="https://secure.cocardgateway.com/cart/cart.php" method="POST">
-                  <input type="hidden" name="key_id" value="93101205" />
+                  <input type="hidden" name="key_id" value="9301205" />
                   <input type="hidden" name="action" value="process_variable" />
                   <input type="hidden" name="order_description" value="Donation to Ministry" />
                   <input type="hidden" name="language" value="en" />
