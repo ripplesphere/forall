@@ -15,7 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :forall, ForallWeb.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [scheme: "https", host: "forall-test.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "powerful-castle-28922.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEY_BASE")
