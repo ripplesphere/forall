@@ -24,22 +24,22 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item <%= if Kernel.inspect(@view_module) == "ForallWeb.PageView", do: 'active' %>">
                 <a class="nav-link" href="/">HOME <span class ="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <%= if Kernel.inspect(@view_module) == "ForallWeb.AboutView", do: 'active' %>">
                 <a class="nav-link" href="/about">ABOUT US</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <%= if Kernel.inspect(@view_module) == "ForallWeb.ServicesView", do: 'active' %>">
                 <a class="nav-link" href="/services">SERVICES</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/donate">DONATE</a>
-              </li>
-              <li class="nav-item">
+              <li class="nav-item <%= if Kernel.inspect(@view_module) == "ForallWeb.EventsView", do: 'active' %>">
                 <a class="nav-link" href="/events">EVENTS</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <%= if Kernel.inspect(@view_module) == "ForallWeb.DonateView", do: 'active' %>">
+                <a class="nav-link" href="/donate">DONATE</a>
+              </li>
+              <li class="nav-item <%= if Kernel.inspect(@view_module) == "ForallWeb.ContactView", do: 'active' %>">
                 <a class="nav-link" href="/contact">CONTACT</a>
               </li>
             </ul>

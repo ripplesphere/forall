@@ -24,16 +24,20 @@
             </h5>
             <p class="card-text donate">
               <hr id="hr_donate_cards">
-              <form action="https://secure.cocardgateway.com/cart/cart.php" method="POST">
-                <input type="hidden" name="key_id" value="9301205" />
-                <input type="hidden" name="action" value="process_variable" />
-                <input type="hidden" name="order_description" value="Donation to Ministry" />
-                <input type="hidden" name="language" value="en" />
-                <input type="hidden" name="url_finish" value="https://www.azgodsministry.com" />
-                <input type="hidden" name="customer_receipt" value="true" />
-                <input type="hidden" name="hash" value="action|order_description|147038c3a6068713515dc36231e58ffe" />
-                <input type="submit" name="submit" value="Donate" />
-              </form>                    
+              <%= if "thanks" ==  @status do %>
+                We greatly appreciate your support.
+              <% else %>
+                <form action="https://secure.cocardgateway.com/cart/cart.php" method="POST">
+                  <input type="hidden" name="key_id" value="3785894" />
+                  <input type="hidden" name="action" value="process_variable" />
+                  <input type="hidden" name="order_description" value="Donation to Ministry" />
+                  <input type="hidden" name="language" value="en" />
+                  <input type="hidden" name="return_link" value="https://forall-test.herokuapp.com/donate/thanks" />
+                  <input type="hidden" name="return_method" value="redirect" />
+                  <input type="hidden" name="hash" value="action|order_description|147038c3a6068713515dc36231e58ffe" />
+                  <input type="submit" name="submit" value="Donate" />
+                </form>                    
+              <% end %>
             </p>
           </div>
         </div>

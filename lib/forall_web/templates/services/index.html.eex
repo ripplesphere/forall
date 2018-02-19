@@ -1,7 +1,7 @@
-<div class="row justify-content-center align-items-center services_prayer" style="min-width: 1028px;">
-  <div class="col-lg-6">
-      <div id="services_prayer_title">SERVICES & SERMONS</div>
-      <div id="services_prayer_text" class="mt-4">
+<div class="row justify-content-center align-items-end services_prayer" style="min-width: 1028px;">
+  <div class="col-lg-5">
+      <div id="services_prayer_title" class="text-center py-2">SERVICES & SERMONS</div>
+      <div id="services_prayer_text" class="text-center mb-4 pb-4">
         Behind the A&Z God's Ministry for All People lies hope Without religion and no walls.
         Pastor Tony Freitas and his wife Zenalia with our dedicated volunteers bring encouragement,
         prayers faith, and the healing touch of Christ to those who are in Nursing Homes, 

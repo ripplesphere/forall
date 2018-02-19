@@ -20,6 +20,7 @@ defmodule ForallWeb.Router do
     get "/about", AboutController, :index
     get "/services", ServicesController, :index
     get "/donate", DonateController, :index
+    get "/donate/thanks", DonateController, :thanks
     get "/events", EventsController, :index
     get "/contact", ContactController, :index
   end

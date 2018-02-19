@@ -52,12 +52,11 @@ footer {
 }
 
 .john812 {
-  background-image: url('/images/sun_clouds.jpg');
+  background-image: url('/images/sun_clouds.png');
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -181,17 +180,12 @@ hr {
 }
 
 .services_prayer{
-  background-image: url('/images/tony_in_prayer.webp');
+  background-image: url('/images/tony_preaching.png');
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  text-align: center;
 }
 
 #services_prayer_title {
@@ -200,6 +194,7 @@ hr {
   font-style: italic;
   color: #8B0000;
   font-family: "palatino linotype", serif;
+  background-color: rgba(233,229,208,0.5);
 }
 
 #services_prayer_text {
@@ -208,6 +203,7 @@ hr {
   font-family: "open sans", sans-serif;
   color: #440506;
   font-size: 14px;
+  background-color: rgba(233,229,208,0.5);
 }
 
 #services_welcome_title {
