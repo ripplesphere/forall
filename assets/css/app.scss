@@ -8,13 +8,9 @@ body, html {
   padding: 0px;
 }
 
-header {
-  padding-left: 170px;
-}
-
 nav {
   font-family: "palatino linotype", serif;
-  font: normal normal normal 12px/1.4em 'open sans',sans-serif;
+  font: normal normal normal 0.9em 'open sans',sans-serif;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -25,6 +21,7 @@ nav {
 
 .navbar .navbar-nav > .active > a, .nav-link:hover {
   color: #A99B00 !important;
+  font-weight: bold !important;
 }
 
 footer {
@@ -34,12 +31,13 @@ footer {
 }
 
 .footer_title {
-  font-size: 18px;
+  font-size: 1.0em;
   font-family: "palatino linotype", serif;
+  font-weight: bold;
 }
 
 .footer_text {
-  font-size: 12px;
+  font-size: 0.9em;
   font-family: "open sans", sans-serif;
   line-height: 1.5em;
 }
