@@ -1,7 +1,7 @@
 <div class="row justify-content-center align-items-center events_faithful" style="min-width: 1028px;">
   <div class="col-lg-6">
-      <div id="events_faithful_title">EVENTS</div>
-      <div id="events_faithful_text" class="mt-4">
+      <div id="events_faithful_title" class="text-center py-2">EVENTS</div>
+      <div id="events_faithful_text" class="text-center mb-4 pb-4">
         Daily visits to Nursing Homes and Hospitals.<br>
         Spiritual guidance services weekly and memorial services when requested.
       </div>

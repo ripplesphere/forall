@@ -49,6 +49,7 @@ footer {
   height: 60%;
 }
 
+/************ HOME page ****************************/
 .john812 {
   background-image: url('/images/sun_clouds.png');
   height: 400px;
@@ -120,8 +121,10 @@ hr {
   background: #a8e0f4;
 }
 
+/************ ABOUT page ****************************/
 #about_row {
   background: #6b9de8;
+  height: 400px;
 }
 
 #about_us {
@@ -242,16 +245,11 @@ hr#services {
 
 .donate_sponsor {
   background-image: url('/images/barley_field.jpg');
-  height: 320px;
+  height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  text-align: center;
 }
 
 #donate_barley_title {
@@ -259,6 +257,7 @@ hr#services {
   color: #8B0000;
   font-size: 30px;
   font-family: "palatino linotype", serif;
+  background-color: rgba(233,229,208,0.5);
 }
 
 #donate_barley_text {
@@ -266,6 +265,7 @@ hr#services {
   line-height: 1.5em;
   font-family: "open sans", sans-serif;
   color: #440506;
+  background-color: rgba(233,229,208,0.5);
 }
 
 .card.donate {
@@ -314,17 +314,12 @@ svg {
 }
 
 .events_faithful {
-  background-image: url('/images/god_is_faithful.jpg');
-  height: 320px;
+  background-image: url('/images/god_is_faithful.png');
+  height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  text-align: center;
 }
 
 #events_faithful_title {
@@ -332,6 +327,7 @@ svg {
   color: #880A0C;
   font-size: 30px;
   font-family: "palatino linotype", serif;
+  background-color: rgba(233,229,208,0.5);
 }
 
 #events_faithful_text {
@@ -340,6 +336,7 @@ svg {
   text-align: center;
   font-size: 14px;
   font-family: "open sans", sans-serif;
+  background-color: rgba(233,229,208,0.5);
 }
 
 #events_cards {
@@ -370,16 +367,11 @@ div.card-body.events {
   background-image: 
     linear-gradient(to bottom, rgba(70,182,224,0.5), rgba(70,182,224,0.5)),
     url('/images/praying_together.webp');
-  height: 320px;
+  height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  text-align: center;
 }
 
 #contact_ways_title {
@@ -387,6 +379,7 @@ div.card-body.events {
   color: #880A0C;
   font-size: 30px;
   font-family: "palatino linotype", serif;
+  background-color: rgba(233,229,208,0.5);
 }
 
 #contact_ways_text {
@@ -395,6 +388,7 @@ div.card-body.events {
   text-align: center;
   font-size: 19px;
   font-family: "open sans", sans-serif;
+  background-color: rgba(233,229,208,0.5);
 }
 
 

@@ -1,7 +1,7 @@
 <div class="row justify-content-center align-items-center donate_sponsor" style="min-width: 1028px;">
   <div class="col-lg-6">
-      <div id="donate_barley_title">DONATE</div>
-      <div id="donate_barley_text" class="mt-4">
+      <div id="donate_barley_title" class="text-center py-2">DONATE</div>
+      <div id="donate_barley_text" class="text-center mb-4 pb-4">
         There’s so much to do - so many people to help.
         Become a Sponsor Today!
       </div>

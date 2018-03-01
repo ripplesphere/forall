@@ -1,7 +1,7 @@
-<div id="about_row" class="row justify-content-center">
-  <div id="about_col" class="col-lg-6  align-items-center py-5">
+<div id="about_row" class="row  align-items-center justify-content-center">
+  <div id="about_col" class="col-lg-6">
       <div id="about_us"><u>ABOUT US</u></div>
-      <div id="about_text" class="pt-3">
+      <div id="about_text" class="mt-3">
         A&Z God's Ministry for All People is hope that is far more than a religion, it’s the church of Christ, that seeks to heal the broken and lost souls that fate brings to its doors.
       </div>
   </div>
