@@ -1,7 +1,13 @@
 /* This file is for your main application css. */
 @import "bootstrap";
 
+/* SASS variables */
+$first-row-height: 400px;
+$test-variable:  20px;
+
+
 body, html {
+  background-color: #eda5a6;
 }
 
 .container-fluid {
@@ -49,10 +55,14 @@ footer {
   height: 60%;
 }
 
+.card {
+  background-color: #eda5a6;
+}
+
 /************ HOME page ****************************/
 .john812 {
   background-image: url('/images/sun_clouds.png');
-  height: 400px;
+  height: $first-row-height;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -67,7 +77,7 @@ footer {
   font-family: "palatino linotype", serif;
   font-weight: bold;
   font-size: 58px;
-  padding-top: 200px;
+  padding-top: 175px;
 }
 
 #john812 {
@@ -124,7 +134,7 @@ hr {
 /************ ABOUT page ****************************/
 #about_row {
   background: #6b9de8;
-  height: 400px;
+  height: $first-row-height;
 }
 
 #about_us {
@@ -180,9 +190,10 @@ hr {
   color: #544D00;
 }
 
+/************ SERVICES page ****************************/
 .services_prayer{
   background-image: url('/images/tony_preaching.png');
-  height: 400px;
+  height: $first-row-height;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -243,9 +254,10 @@ hr#services {
   color: #440506;
 }
 
+/************ DONATE page ****************************/
 .donate_sponsor {
   background-image: url('/images/barley_field.jpg');
-  height: 400px;
+  height: $first-row-height;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -313,9 +325,10 @@ svg {
   font-family: "open sans", sans-serif;
 }
 
+/************ EVENTS page ****************************/
 .events_faithful {
   background-image: url('/images/god_is_faithful.png');
-  height: 400px;
+  height: $first-row-height;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -363,11 +376,12 @@ div.card-body.events {
   font-family: "open sans", sans-serif;
 }
 
+/************ CONTACT page ****************************/
 .contact_ways {
   background-image: 
     linear-gradient(to bottom, rgba(70,182,224,0.5), rgba(70,182,224,0.5)),
     url('/images/praying_together.webp');
-  height: 400px;
+  height: $first-row-height;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
