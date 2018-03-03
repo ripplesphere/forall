@@ -1,11 +1,23 @@
 /* This file is for your main application css. */
 @import "bootstrap";
 
-/* SASS variables */
+/***************** SASS variables ****************/
 $first-row-height: 400px;
-$test-variable:  20px;
+$normal-font-size: 0.9em;
+$larger-font-size: 1.6em;
+$sans-font: "open sans", sans-serif;
 
+.normal-font {
+  font-size: $normal-font-size;
+  font-family: $sans-font;
+}
 
+.larger-font {
+  font-size: $larger-font-size;
+  font-family: $sans-font;
+}
+
+/**************** body, header, footer ***********/
 body, html {
   background-color: #eda5a6;
 }
@@ -15,8 +27,7 @@ body, html {
 }
 
 nav {
-  font-family: "palatino linotype", serif;
-  font: normal normal normal 0.9em 'open sans',sans-serif;
+  @extend .normal-font;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -25,13 +36,17 @@ nav {
   padding-top: 50px;
 }
 
-.navbar .navbar-nav > .active > a, .nav-link:hover {
+.navbar .navbar-nav > .active > a {
   color: #A99B00 !important;
   font-weight: bold !important;
 }
 
+.navbar .navbar-nav > a, .nav-link:hover {
+  color: white !important;
+}
+
 footer {
-  background-color: #2f2e2e;
+  background-color: #211f1f;
   color: #CC1013;
   padding-bottom: 20px;
 }
@@ -81,10 +96,9 @@ footer {
 }
 
 #john812 {
-  font-size: 22px;
-  font-family: "open sans", sans-serif;
+  @extend .larger-font;
   font-weight: bold;
-  color: white;
+  color: #b4d4ec;
   padding-top: 50px;
 }
 
@@ -94,14 +108,19 @@ footer {
 }
 
 #mark1615_txt {
+  margin-top: 20px;
   letter-spacing: 0.2em;
   font-size: 26px;
   font-family: "palatino linotype", serif;
   color: #544D00;
 }
 
+#mark1615_ref {
+  color: #544D00;
+}
+
 #we_all_should {
-  padding-top: 50px;
+  padding: 20px;
   padding-left: 300px;
   text-align: left;
   font-size: 16px;
@@ -111,17 +130,12 @@ footer {
   font-family: "open sans", sans-serif;
 }
 
-#home_cards {
-  background: #eda5a6;
-}
-
-.card.home {
+.card {
   border: 0;
   padding: 15px;
-  background: #eda5a6;
 }
 
-div.card-body.home {
+div.card-body {
   background-color: #e1b0b5;
 }
 
@@ -151,10 +165,6 @@ hr {
   color: #880A0C;
   line-height: 1.5em;
   font-family: "open sans", sans-serif;
-}
-
-.card.about {
-  border: 0;
 }
 
 .card-title.about {
@@ -216,6 +226,10 @@ hr {
   color: #440506;
   font-size: 14px;
   background-color: rgba(233,229,208,0.5);
+}
+
+#services_prayer_text:hover {
+  background-color: white;
 }
 
 #services_welcome_title {
@@ -280,8 +294,8 @@ hr#services {
   background-color: rgba(233,229,208,0.5);
 }
 
-.card.donate {
-  border: 0;
+#donate_barley_text:hover {
+  background-color: white;
 }
 
 .card-title.donate {
@@ -352,12 +366,8 @@ svg {
   background-color: rgba(233,229,208,0.5);
 }
 
-#events_cards {
-}
-
-.card.events {
-  border: 0;
-  padding: 15px;
+#events_faithful_text:hover {
+  background-color: white;
 }
 
 div.card-body.events {
@@ -397,12 +407,16 @@ div.card-body.events {
 }
 
 #contact_ways_text {
-  color: #000000;
+  color: #880A0C;
   line-height: 1.5em;
   text-align: center;
   font-size: 19px;
   font-family: "open sans", sans-serif;
   background-color: rgba(233,229,208,0.5);
+}
+
+#contact_ways_text:hover {
+  background-color: white;
 }
 
 

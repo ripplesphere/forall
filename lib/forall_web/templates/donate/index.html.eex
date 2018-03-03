@@ -1,7 +1,7 @@
-<div class="row justify-content-center align-items-center donate_sponsor" style="min-width: 1028px;">
+<div class="row justify-content-center align-items-center donate_sponsor">
   <div class="col-lg-6">
       <div id="donate_barley_title" class="text-center py-2">DONATE</div>
-      <div id="donate_barley_text" class="text-center mb-4 pb-4">
+      <div id="donate_barley_text" class="text-center mb-4 p-2">
         There’s so much to do - so many people to help.
         Become a Sponsor Today!
       </div>
@@ -76,8 +76,8 @@
               <hr id="hr_donate_cards">
                 Please consider making a tax deductible donation to the ministry.
                 Any amount is acceptable.
-                You can mail the checks. You can stop and drop any items you no longer using that is in reasonable conditions.
-                You may donate gifts for the Christmas party at the nursing homes.
+                You can mail the checks. You can stop and drop any items you no longer using that is in 
+                reasonable conditions. You may donate gifts for the Christmas party at the nursing homes.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@
     </div>
 </div>
 
-<div class="row justify-content-center mb-5">
+<div class="row justify-content-center my-5">
   <div class="col-7">
     <div id="donate_change_title" class="text-center">
       Help Change Lives For The Better!  Make Your Tax Deductible Donation Today!

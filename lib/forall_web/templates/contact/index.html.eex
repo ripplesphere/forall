@@ -1,7 +1,7 @@
-<div class="row justify-content-center align-items-center contact_ways" style="min-width: 1028px;">
+<div class="row justify-content-center align-items-center contact_ways">
   <div class="col-lg-6">
       <div id="contact_ways_title" class="text-center py-2">CONTACT</div>
-      <div id="contact_ways_text" class="text-center mb-4 pb-4">
+      <div id="contact_ways_text" class="text-center mb-4 pb-4 p-2">
         There are many ways for you to be in  contact  with our ministry. Reach out to 
         us by phone, email, or you can even send us a private message on facebook or 
         twitter and let us know how we can help.
