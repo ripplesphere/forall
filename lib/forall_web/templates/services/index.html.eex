@@ -23,9 +23,11 @@
   </div>
 </div>
 
-<div class="row justify-content-center my-5">
-  <div class="col-9">
-    <img class="float-left pr-5" src="images/praying_together.webp" alt="Together in prayer">
+<div class="row my-5">
+  <div class="col text-right">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ckbPGBehMpU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="col text-left">
     <div class="h-100">
       <h6 id="services_hours_title"><u>HOURS:</u></h6>
       <br>
