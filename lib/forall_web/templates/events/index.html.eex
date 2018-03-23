@@ -2,8 +2,9 @@
   <div class="col-lg-6">
       <div id="events_faithful_title" class="text-center py-2">EVENTS</div>
       <div id="events_faithful_text" class="text-center mb-4 p-2">
-        Daily visits to Nursing Homes and Hospitals.<br>
-        Spiritual guidance services weekly and memorial services when requested.
+        Daily visits to Nursing Homes, Hospitals, and Home Shelters.<br>
+        Weekly worship<br>
+        Spiritual guidance services weekly and memorial services when requested.<br>
       </div>
   </div>
 </div>
@@ -19,7 +20,7 @@
           <div class="card-body events text-center">
             <h5 class="card-title events">TV MINISTRY</h5>
             <p class="card-text events text-center">
-              Weekly sermons recorded for TV program
+              Follow our sermons on YouTube.
             </p>
           </div>
         </div>
@@ -35,11 +36,11 @@
         </div>
 
         <div class="card events">
-          <img class="card-img-top" src="/images/funeral_services.webp" alt="Funeral Services">
+          <img class="card-img-top" src="/images/funeral_flowers.jpg" alt="Funeral Services">
           <div class="card-body events">
             <h5 class="card-title events text-center">Funeral Services</h5>
             <p class="card-text events text-center">
-              Funeral Home and and cemetery
+              Funeral / Memorial Services
             </p>
           </div>
         </div>
@@ -64,7 +65,7 @@
         </div>
 
        <div class="card events">
-          <img class="card-img-top" src="/images/helping_elderly.webp" alt="Helping the Elderly">
+          <img class="card-img-top" src="/images/helping_elderly.jpg" alt="Helping the Elderly">
           <div class="card-body events">
             <h5 class="card-title events text-center">Helping the Elderly</h5>
             <p class="card-text events text-center">
@@ -74,10 +75,10 @@
         </div>
 
        <div class="card events">
-          <img class="card-img-top" src="/images/marriage_preparation.webp" 
+          <img class="card-img-top" src="/images/wedding_pic.jpg" 
                 alt="Marriage Preparation Course">
           <div class="card-body events">
-            <h5 class="card-title events text-center">Marriage Preparation Course</h5>
+            <h5 class="card-title events text-center">Indoor and Outdoor Weddings</h5>
             <p class="card-text events text-center">
               Call or email to schedule
             </p>

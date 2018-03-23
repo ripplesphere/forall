@@ -58,7 +58,8 @@
             <p class="card-text donate">
               <hr id="hr_donate_cards">
               Consider giving your time to volunteer.
-              You may help the ministry by visiting nursing home patients with us or by doing some paperwork at the office.
+              You may help the ministry by visiting nursing home residents with us or 
+              by doing activities to benefit the ministry and the community.
             </p>
           </div>
         </div>
@@ -96,7 +97,9 @@
       Help Change Lives For The Better!  Make Your Tax Deductible Donation Today!
     </div>
     <div id="donate_change_text" class="text-center mt-2">
-    I thank you in advance for your prayers and financial support. I pray God’s blessings upon you and your family, thank you for considering partnering with us at this time.
+    I thank you in advance for your prayers and financial support. 
+    I pray God’s blessings upon you and your family, thank you for 
+    considering partnering with us at this time.
     </div>
   </div>
 </div>
@@ -110,12 +113,12 @@
     <img  src="/images/children_reading.webp" class="img-fluid" alt="Third slide">
   </div>
   <div class="col-2">
-    <img  src="/images/reading_bible.webp" class="img-fluid" alt="First slide">
+    <img  src="/images/bible.jpeg" class="img-fluid" alt="First slide">
   </div>
   <div class="col-2">
     <img  src="/images/home_services.webp" class="img-fluid" alt="Third slide">
   </div>
   <div class="col-2">
-    <img  src="/images/praying_together.jpg" class="img-fluid" alt="Third slide">
+    <img  src="/images/wedding_pic_2.jpg" class="img-fluid" alt="Third slide">
   </div>
 </div>

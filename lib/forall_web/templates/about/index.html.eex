@@ -2,60 +2,16 @@
   <div id="about_col" class="col-lg-6">
       <div id="about_us"><u>ABOUT US</u></div>
       <div id="about_text" class="my-4">
-        A&Z God's Ministry for All People is hope that is far more than a religion, it’s the church of Christ, that seeks to heal the broken and lost souls that fate brings to its doors.
+        <b>A & Z God's Ministry for All People</b> is hope that is far more than a religion, it’s the church of Christ, 
+        that seeks to heal the broken and lost souls that fate brings to its doors.
       </div>
   </div>
 </div>
 
-<div class="row justify-content-center mt-4">
-    <div class="col-10">
-      <div class="card-group">
-
-        <div class="card about">
-          <div class="card-body text-center">
-            <h5 class="card-title about">OUR VISION</h5>
-            <p class="card-text about">
-              <hr class="hr_about_cards">
-             We spread the Good News of Jesus Christ for God's glory.<br>
-             Our passion is not only knowing and following Jesus, but 
-             helping others know and follow Him. 
-             It's People Helping People. 
-            </p>
-          </div>
-        </div>
-        <div class="card about">
-          <div class="card-body text-center">
-            <h5 class="card-title about">WHAT WE DO</h5>
-            <p class="card-text about">
-            <hr class="hr_about_cards">
-            Pastor Tony and volunteers from
-            A&Z God's Ministry For All People
-            go weekly to some of our local Nursing Homes to visit and pray with the residents.
-            Pastor Tony meets with homeless at Shelters to offer Spiritual Guidance.
-            Our ministry also does Weddings and Funerals. Our ministry offers free Bible 
-            courses and activities with the youth.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body text-center">
-            <h5 class="card-title about">OUR COMMUNITY</h5>
-            <p class="card-text about">
-              <hr class="hr_about_cards">
-             We strive to help people find Christ and live Christ-like lives. 
-             We like to present a positive and practical message that can be applied 
-             to every person's life. The Nursing Home residents were someone's mother 
-             or father. God loves them, and He has sent us to help make their day brighter.  
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
 
 <div class="row justify-content-center my-5">
   <div class="col-9 text-center">
-    <img class="float-left" src="images/jesus_praying.webp" alt="Jesus in prayer">
+    <img class="float-left" src="images/clipart-cross-left.png" alt="Jesus in prayer">
     <div class="h-100 pt-5">
       <h6 class="about_good_news_title"><u>INCREASE YOUR FAITH</u></h6>
       <br>

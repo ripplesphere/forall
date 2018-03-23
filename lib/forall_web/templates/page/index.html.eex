@@ -1,23 +1,30 @@
 <div class="row" style="min-width: 1028px;">
-  <div class="col john812">
-      <div id="j812">Jesus is the Only Way to Heaven</div>
-      <div id="john812"></div>
+  <div class="home col one">
+      <div id="home-one">Jesus is the Only Way to Heaven</div>
   </div>
 </div>
 <div class="row" style="min-width: 1028px;">
+  <div class="col-2 mt-3 text-right">
+    <img class="img" width="100" height="200px" src="images/clipart-cross-left.png">
+  </div>
   <div class="col mark1615">
     <div id="mark1615_txt">
       Jesus wants you to know His mercy and grace is always available.<br>
       It is never too late to receive Him as
       Lord and Savior.<br>
     </div>
-    <div id="mark1615_ref">
-    </div>
     <div id="we_all_should">
       Pastor Tony is led by the Holy Spirit to reveal your path to Salvation.
     </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/e3QuPAOFPHo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <div class="m-4"></div>
+  </div>
+  <div class="col-2 mt-3">
+    <img class="img" width="100" height="200px" src="images/clipart-cross-right.png">
+  </div>
+</div>
+<div class="row text-center">
+  <div class="col">
+    <iframe class="mb-4" width="560" height="315" src="https://www.youtube.com/embed/e3QuPAOFPHo" 
+      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </div>
 

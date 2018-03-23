@@ -11,6 +11,9 @@
 </div>
 
 <div class="row">
+  <div class="col-2 mt-3 text-right">
+    <img class="img" width="100" height="200px" src="images/clipart-cross-left.png">
+  </div>
   <div class="col my-4">
     <div id="services_welcome_title" class="text-center">
       We welcome you and your family to come join our Ministry!
@@ -18,8 +21,11 @@
     <hr id="services">
     <div id="services_welcome_text" class="text-center">
       Worship Service every Sunday at 11:00 AM in English<br>
-      Every Tuesday and Friday at 7:00 PM in Portuguese
+      Every Tuesday and Friday at 7:00 PM in Portuguese<br>
+      Bible courses and Spiritual guidance services by appointment.<br>
     </div>
+  </div>
+  <div class="col-2 mt-3">
   </div>
 </div>
 
@@ -33,14 +39,12 @@
       <br>
       <div id="services_hours_text">
         SUNDAY SERVICES<br>
-        Every Sunday from 11:00am - 12:00pm<br>
+        Every Sunday from 11:00am - 12:00pm (English)<br>
         <br>
-        Every Tuesday and Friday from 7:00 pm - 8:15pm<br>
+        Every Tuesday and Friday from 7:00 pm - 8:15pm (Portuguese)<br>
         <br>
         CHILDREN'S SERVICES<br>
         Time varies (based on school vacation). Call for time schedule.<br>
-        OTHER SERVICES<br>
-        Bible courses and Spiritual guidance services by appointment.<br>
       </div>
     </div>
   </div>
