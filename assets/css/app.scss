@@ -195,12 +195,13 @@ hr {
 
 /************ SERVICES page ****************************/
 .services_prayer{
-  background-image: url('/images/tony_preaching.png');
+  background-image: url('/images/tony_w_bible.jpg');
   height: $first-row-height;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  background-color: #dbd0a4;
 }
 
 #services_prayer_title {
@@ -244,7 +245,7 @@ hr#services {
   letter-spacing: 0.2em;
   font-size: 19px;
   font-family: "palatino linotype", serif;
-  color: #544D00;
+  color: #00063a;
 }
 
 #services_hours_title {

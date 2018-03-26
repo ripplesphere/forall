@@ -23,6 +23,7 @@ defmodule ForallWeb.Router do
     get "/donate/thanks", DonateController, :thanks
     get "/events", EventsController, :index
     get "/contact", ContactController, :index
+    post "/contact", ContactController, :create
   end
 
   # Other scopes may use custom stacks.

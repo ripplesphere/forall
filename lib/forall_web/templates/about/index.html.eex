@@ -10,16 +10,23 @@
 
 
 <div class="row justify-content-center my-5">
-  <div class="col-9 text-center">
-    <img class="float-left" src="images/clipart-cross-left.png" alt="Jesus in prayer">
-    <div class="h-100 pt-5">
-      <h6 class="about_good_news_title"><u>INCREASE YOUR FAITH</u></h6>
-      <br>
-      <div class="about_good_news_scripture">
-      "So faith comes from hearing, that is,<br>hearing the Good News about Christ."
-      </div>
-      <br>
-      <div class="about_good_news_ref">Romans 10:17 (NLT)</div>
-    </div>
+  <div class="col-3 text-center mx-4">
+    <img class="float-right img-fluid" width="200px" src="images/tony_bio.jpg" alt="Jesus in prayer">
   </div>
+  <div class="col-5">
+     Our Senior Pastor Tony Freitas has preached the Word of God since 1974 through radio ministry and ministering at 
+    nursing homes, hospitals, and home shelters. Still up to date Pastor Tony Freitas continues to preach the Good News 
+    of the Gospel of Jesus Christ. As he is led by the Holy Spirit to continue Jesus' mission to lead everyone through 
+    the path of salvation. As co-founder of A & Z Ministry for All People. We are a complete Church of Christ providing 
+    services to all people. 
+  </div>
+</div>
+<div class="row justify-content-center mb-4">
+  <div class="col-7">
+    Zenalia Freitas: The wife of Pastor Tony Freitas also co-founder of A & Z God's Ministry for All People. Secretary and cohoster with Jan Skenas of the program Through the Eyes of Faith. 
+    <br><br>
+    George Mills: Technical support and web developer. 
+    <br><br>
+    Maria Silveira: Treasurer and studio designer
+ </div>
 </div>
