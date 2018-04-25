@@ -17,6 +17,7 @@ defmodule ForallWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/comments", CommentController
     get "/about", AboutController, :index
     get "/services", ServicesController, :index
     get "/donate", DonateController, :index

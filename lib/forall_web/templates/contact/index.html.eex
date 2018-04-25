@@ -18,7 +18,14 @@
     Brockton, MA 02301<br></div>
     <img src="/images/brockton_location.png"  alt="Brockton location">
   </div>
-  <div class="col text-center m-3">
+  <div class="col text-center m-3 pt-3">
+    <%= if assigns[:message] do  %>
+      <h3>Thank you for contacting the ministry. God bless.</h3>
+    <%= else %>
+      <div class="text-left">
+        <%= render "form.html", Map.put(assigns, :action, contact_path(@conn, :create)) %>
+      </div>
+    <% end %>
     <br>
     <img src="/images/phone.gif"  alt="phone: 508-297-1829"><br>
     Tel: 508-297-1829
