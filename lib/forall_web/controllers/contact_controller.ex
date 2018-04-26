@@ -24,8 +24,4 @@ defmodule ForallWeb.ContactController do
         render(conn, "index.html", changeset: changeset)
     end
   end
-
-  def create(conn, params) do
-    render conn, "index.html"
-  end
 end

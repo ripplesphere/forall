@@ -21,7 +21,7 @@
   <div class="col text-center m-3 pt-3">
     <%= if assigns[:message] do  %>
       <h3>Thank you for contacting the ministry. God bless.</h3>
-    <%= else %>
+    <% else %>
       <div class="text-left">
         <%= render "form.html", Map.put(assigns, :action, contact_path(@conn, :create)) %>
       </div>
