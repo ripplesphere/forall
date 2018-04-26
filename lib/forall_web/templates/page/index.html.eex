@@ -27,5 +27,10 @@
       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </div>
+<div class="row mb-4">
+  <div class="text-block col-8 offset-2">
+    <%= render "welcome_to_jesus.html" %>
+  </div>
+</div>
 
 
