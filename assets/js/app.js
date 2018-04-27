@@ -19,4 +19,6 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
-
+$(".video-selector").change(function() {
+  $("iframe.video").attr("src", "https://www.youtube.com/embed/" + this.value + "?rel=0");
+});

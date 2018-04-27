@@ -25,8 +25,31 @@
   <div class="col-7">
     Zenalia Freitas: The wife of Pastor Tony Freitas also co-founder of A & Z God's Ministry for All People. Secretary and cohoster with Jan Skenas of the program Through the Eyes of Faith. 
     <br><br>
-    George Mills: Technical support and web developer. 
+    George Mills: Web developer for Jesus 
     <br><br>
     Maria Silveira: Treasurer and studio designer
+ </div>
+</div>
+<div class="row justify-content-center mb-4">
+  <div class="col-3 text-block p-3">
+    <div class="form-group">
+      <label for="tonys-videos-english">Pastor Tony's sermons (English):</label>
+      <select id="tonys-videos-english" class="video-selector form-control">
+        <%= render "options_tony_english.html" %>
+      </select>
+      <br>
+      <label for="tonys-videos-portuguese">Pastor Tony's sermons (Portuguese):</label>
+      <select id="tonys-videos-portuguese" class="video-selector form-control">
+        <%= render "options_tony_portuguese.html" %>
+      </select>
+      <br>
+      <label for="zenalias-videos">Sister Zenalia and Sister Maria's programs:</label>
+      <select id="zenalias-videos" class="video-selector form-control">
+        <%= render "options_zenalia.html" %>
+      </select>
+    </div>
+  </div>
+  <div class="col-7 text-block p-3">
+  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/C13dqhF5grY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  </div>
 </div>
