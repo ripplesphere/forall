@@ -9,16 +9,12 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col align-self-end m-3">
-    <div class="m-3">2 Canton Street, BLD. A-4<br>
-    Stoughton, MA 02072<br></div>
-    <img src="/images/stoughton_location.png"  alt="Stoughton location">
-    <div class="m-3">418 Belmont Street<br>
-    Brockton, MA 02301<br></div>
-    <img src="/images/brockton_location.png"  alt="Brockton location">
+<div class="row p-3">
+  <div class="col-lg">
+    <div class="row"> <div class="col m-2 text-block"> <div class="row"> <div class="col-5 p-2"> 2 Canton Street, BLD. A-4<br> Stoughton, MA 02072 </div> <div class="col-7 p-2"> Parking is available beside the building. The entrance faces the street. Through the front door. Door on your right. Office space A-5. All are welcome to our church service.  </div> </div> <div class="row"> <div class="col p-3"> <a href="https://www.google.com/maps/place/A+%26+Z+God's+Ministry+for+All+People/@42.1251711,-71.1100367,16z/data=!4m5!3m4!1s0x89e486af207fcf7b:0x448760cd2f509f0b!8m2!3d42.1244994!4d-71.104563?hl=en&authuser=0"><img class="img-fluid" src="/images/stoughton_location.png"  alt="Stoughton location"></a> </div> </div> </div> </div>
+    <div class="row"> <div class="col m-2 text-block"> <div class="row"> <div class="col-5 p-2"> 418 Belmont Street<br> Brockton, MA 02301<br> </div> </div> <div class="row"> <div class="col p-3"> <a href="https://www.google.com/maps/place/A+%26+Z+God's+Ministry+for+All+People/@42.0765554,-71.0389981,16.88z/data=!4m12!1m6!3m5!1s0x89e486af207fcf7b:0x448760cd2f509f0b!2sA+%26+Z+God's+Ministry+for+All+People!8m2!3d42.1244994!4d-71.104563!3m4!1s0x89e4851b44455555:0x59f4b8ea0a795afb!8m2!3d42.0763778!4d-71.0369157?hl=en&authuser=0"><img class="img-fluid" src="/images/brockton_location.png"  alt="Brockton location"></a> </div> </div> </div> </div>
   </div>
-  <div class="col text-center m-3 pt-3">
+  <div class="col-lg">
     <%= if assigns[:message] do  %>
       <h3>Thank you for contacting the ministry. God bless.</h3>
     <% else %>
@@ -27,14 +23,16 @@
       </div>
     <% end %>
     <br>
-    <img src="/images/phone.gif"  alt="phone: 508-297-1829"><br>
-    Tel: 508-297-1829
-    <hr>
-    <img src="/images/envelop.gif"  alt="envelop"><br>
-    azgodsministryforallpeople@gmail.com
-    <hr>
-    <img src="/images/postcard.gif"  alt="postcard"><br>
-    P.O.Box 543<br>
-    South Easton, MA 02375
+    <div class="text-center">
+      <img src="/images/phone.gif"  alt="phone: 508-297-1829"><br>
+      Tel: 508-297-1829
+      <hr>
+      <a href="mailto:azgodsministryforallpeople@gmail.com"><img src="/images/envelop.gif"  alt="envelop"><br>
+      azgodsministryforallpeople@gmail.com</a>
+      <hr>
+      <img src="/images/postcard.gif"  alt="postcard"><br>
+      P.O.Box 543<br>
+      South Easton, MA 02375
+    </div>
   </div>
 </div>
