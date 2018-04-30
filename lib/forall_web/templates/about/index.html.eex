@@ -31,7 +31,7 @@
  </div>
 </div>
 <div class="row justify-content-center mb-4">
-  <div class="col-3 text-block p-3">
+  <div class="col-md-3 text-block p-3">
     <div class="form-group">
       <label for="tonys-videos-english">Pastor Tony's sermons (English):</label>
       <select id="tonys-videos-english" class="video-selector form-control">
@@ -43,13 +43,22 @@
         <%= render "options_tony_portuguese.html" %>
       </select>
       <br>
-      <label for="zenalias-videos">Sister Zenalia and Sister Maria's programs:</label>
+      <label for="zenalias-videos">Through The Eyes of Faith programs:</label>
       <select id="zenalias-videos" class="video-selector form-control">
         <%= render "options_zenalia.html" %>
       </select>
     </div>
   </div>
+  <div class="col-md-7 text-block p-3">
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/C13dqhF5grY?rel=0" 
+      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="row justify-content-center mb-4">
   <div class="col-7 text-block p-3">
-  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/C13dqhF5grY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
- </div>
+    <a class="twitter-timeline"
+      href="https://twitter.com/azgodsministry">
+    Tweets by @azgodsministry
+</a>
+ <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  </div>
 </div>
