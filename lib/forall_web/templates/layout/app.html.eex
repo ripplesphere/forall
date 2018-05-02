@@ -53,8 +53,7 @@
 
       <footer>
         <div class="row p-3">
-          <div class="col-2"></div>
-          <div class="col-3">
+          <div class="col-md-4 offset-lg-1">
             <span class="footer_title">ABOUT US</span><br><br>
             <span class="footer_text">
               A Non-profit organization that provides services to Nursing Homes, Shelter Homes, 
@@ -64,9 +63,10 @@
             </span>
           </div>
           <div class="col-1">
-            <p class="vertical_rule"></p>
+            <p class="vertical_rule d-none d-md-block"></p>
+            <p class="horizontal_rule d-md-none"></p>
           </div>
-          <div class="col-3">
+          <div class="col-md-4">
             <span class="footer_title">ADDRESS</span><br>
             <span class="footer_text">
               1-508-297-1829<br>
@@ -74,26 +74,19 @@
               <br>
               2 Canton Street, BLD. A-4<br>
               Stoughton, MA 02072<br>
-                                and<br>
+              and<br>
               418 Belmont Street<br>
               Brockton, MA  02301
             </span>
           </div>
-          <div class="col-2 align-self-end">
-                    <a href="https://www.facebook.com/AZ-Gods-Ministry-for-All-People-398611063640967/" 
-                        class="p-1" target="_blank">
-                      <img src="images/facebook_icon.png" alt="facebook icon">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UChvLWvQ39sgv43qn1xighyQ" class="p-1" target="_blank">
-                      <img src="images/youtube_icon.png" alt="youtube icon">
-                    </a>
-                    <a href="https://twitter.com/azgodsministry" class="p-1" target="_blank">
-                      <img src="images/twitter_icon.png" alt="twitter icon">
-                    </a>
+          <div class="col-md-3 col-lg-2 align-self-end">
+            <p class="horizontal_rule d-md-none"></p>
+            <a href="https://www.facebook.com/AZ-Gods-Ministry-for-All-People-398611063640967/" 
+                class="p-1" target="_blank"><img src="images/facebook_icon.png" alt="facebook icon"></a>
+            <a href="https://www.youtube.com/channel/UChvLWvQ39sgv43qn1xighyQ" class="p-1" target="_blank"><img src="images/youtube_icon.png" alt="youtube icon"></a>
+            <a href="https://twitter.com/azgodsministry" class="p-1" target="_blank"><img src="images/twitter_icon.png" alt="twitter icon"></a>
           </div>
-          <div class="col-1"></div>
         </div>
-
 
       </footer>
 
