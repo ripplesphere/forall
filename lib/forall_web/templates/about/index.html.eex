@@ -34,15 +34,17 @@
   <div class="col-md-3 text-block p-3">
     <div class="form-group">
       <label for="tonys-videos-english">Pastor Tony's sermons (English):</label>
-      <select id="tonys-videos-english" class="video-selector form-control">
+      <select id="tonys-videos-english" class="video-selector form-control mb-3">
         <%= render "options_tony_english.html" %>
       </select>
-      <br>
       <label for="tonys-videos-portuguese">Pastor Tony's sermons (Portuguese):</label>
-      <select id="tonys-videos-portuguese" class="video-selector form-control">
+      <select id="tonys-videos-portuguese" class="video-selector form-control mb-3">
         <%= render "options_tony_portuguese.html" %>
       </select>
-      <br>
+      <label for="scutts-videos">Pastor Scott's sermons:</label>
+      <select id="scutts-videos" class="video-selector form-control mb-3">
+        <%= render "options_scutt.html" %>
+      </select>
       <label for="zenalias-videos">Through The Eyes of Faith programs:</label>
       <select id="zenalias-videos" class="video-selector form-control">
         <%= render "options_zenalia.html" %>
