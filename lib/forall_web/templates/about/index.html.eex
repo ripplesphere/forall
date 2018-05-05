@@ -41,7 +41,7 @@
       <select id="tonys-videos-portuguese" class="video-selector form-control mb-3">
         <%= render "options_tony_portuguese.html" %>
       </select>
-      <label for="scutts-videos">Pastor Scott's sermons:</label>
+      <label for="scutts-videos">Pastor Scutt's sermons:</label>
       <select id="scutts-videos" class="video-selector form-control mb-3">
         <%= render "options_scutt.html" %>
       </select>
