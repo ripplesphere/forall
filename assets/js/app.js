@@ -22,3 +22,8 @@ import "phoenix_html"
 $(".video-selector").change(function() {
   $("iframe.video").attr("src", "https://www.youtube.com/embed/" + this.value + "?rel=0");
 });
+
+$("#weeks-message").change(function() {
+  $(".weeks-message").addClass("d-none");
+  $("#" + this.value).removeClass("d-none");
+});
