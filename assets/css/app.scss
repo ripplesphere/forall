@@ -91,14 +91,11 @@ footer {
 div.home.col.one {
   background-image: url('/images/sun_clouds.png');
   height: $first-row-height;
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
+  background-color: #3b78af;
 }
 
 #home-one {
@@ -199,6 +196,10 @@ hr {
   font-family: "open sans", sans-serif;
 }
 
+#about_text:hover {
+  background-color: white;
+}
+
 .card-title.about {
   letter-spacing: 0.2em;
   font-family: "palatino linotype", serif;
@@ -236,7 +237,6 @@ hr {
 .services_prayer{
   background-image: url('/images/tony_w_bible.jpg');
   height: $first-row-height;
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -305,7 +305,6 @@ hr#services {
 .donate_sponsor {
   background-image: url('/images/barley_field.jpg');
   height: $first-row-height;
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -376,7 +375,6 @@ svg {
 .events_faithful {
   background-image: url('/images/god_is_faithful.png');
   height: $first-row-height;
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -425,7 +423,6 @@ div.card-body.events {
     linear-gradient(to bottom, rgba(70,182,224,0.5), rgba(70,182,224,0.5)),
     url('/images/praying_together.webp');
   height: $first-row-height;
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

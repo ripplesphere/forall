@@ -1,7 +1,7 @@
 <div id="about_row" class="row  align-items-center justify-content-center">
   <div id="about_col" class="col-lg-6">
       <div id="about_us"><u>ABOUT US</u></div>
-      <div id="about_text" class="my-4">
+      <div id="about_text" class="my-4 px-2">
         <b>A & Z God's Ministry for All People</b> is hope that is far more than a religion, it’s the church of Christ, 
         that seeks to heal the broken and lost souls that fate brings to its doors.
       </div>
