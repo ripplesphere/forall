@@ -1,9 +1,9 @@
-<div class="row" style="min-width: 1028px;">
+<div class="row">
   <div class="home col one">
       <div id="home-one">Jesus is the Only Way to Heaven</div>
   </div>
 </div>
-<div class="row" style="min-width: 1028px;">
+<div class="row">
   <div class="col-2 mt-3 text-right">
     <img class="img" width="100" height="200px" src="images/clipart-cross-left.png">
   </div>
