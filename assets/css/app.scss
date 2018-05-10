@@ -24,6 +24,11 @@ body, html {
   background-color: $background-color; /* #eda5a6; */
 }
 
+body {
+  min-height: 75rem;
+  padding-top: 5.5rem;
+}
+
 .container-fluid {
   padding: 0px;
 }
@@ -32,10 +37,14 @@ nav {
   @extend .normal-font;
 }
 
+nav.navbar {
+  background-color: $background-color;
+}
+
 .navbar .navbar-nav .nav-item {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .navbar .navbar-nav > .active > a {
