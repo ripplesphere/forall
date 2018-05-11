@@ -111,7 +111,7 @@ div.home.col.one {
   font-family: "palatino linotype", serif;
   font-weight: bold;
   font-size: 58px;
-  padding-top: 175px;
+  padding-top: 15%;
 }
 
 .mark1615 {
@@ -386,7 +386,9 @@ svg {
   height: $first-row-height;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  background-color: #864a18;
+  margin: 0px;
 }
 
 #events_faithful_title {
