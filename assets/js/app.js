@@ -26,7 +26,9 @@ $(function () {
 })
 
 $(".video-selector").change(function() {
-  $("iframe.video").attr("src", "https://www.youtube.com/embed/" + this.value + "?rel=0");
+  if (this.value != 0) {
+    $("iframe.video").attr("src", "https://www.youtube.com/embed/" + this.value + "?rel=0");
+  }
 });
 
 $("#weeks-message").change(function() {

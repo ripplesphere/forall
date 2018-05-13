@@ -33,27 +33,25 @@
 <div class="row justify-content-center mb-4">
   <div class="col-md-3 text-block p-3">
     <div class="form-group">
-      <label for="tonys-videos-english">Pastor Tony's sermons (English):</label>
-      <select id="tonys-videos-english" class="video-selector form-control mb-3">
+      <select class="video-selector form-control mb-3">
         <%= render "options_tony_english.html" %>
       </select>
-      <label for="tonys-videos-portuguese">Pastor Tony's sermons (Portuguese):</label>
-      <select id="tonys-videos-portuguese" class="video-selector form-control mb-3">
+      <select class="video-selector form-control mb-3">
         <%= render "options_tony_portuguese.html" %>
       </select>
-      <label for="scutts-videos">Pastor Scutt's sermons:</label>
-      <select id="scutts-videos" class="video-selector form-control mb-3">
+      <select class="video-selector form-control mb-3">
         <%= render "options_scutt.html" %>
       </select>
-      <label for="zenalias-videos">Through The Eyes of Faith programs:</label>
-      <select id="zenalias-videos" class="video-selector form-control">
+      <select class="video-selector form-control">
         <%= render "options_zenalia.html" %>
       </select>
     </div>
   </div>
   <div class="col-md-7 text-block p-3">
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NlZAX9F6hUk?rel=0" 
-      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/NlZAX9F6hUk?rel=0" 
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 <div class="row justify-content-center mb-4">
