@@ -25,7 +25,7 @@ $(function () {
   $('[data-toggle="popover"]').popover()
 })
 
-$(".video-selector").change(function() {
+$(".video-selector").click(function() {
   if (this.value != 0) {
     $("iframe.video").attr("src", "https://www.youtube.com/embed/" + this.value + "?rel=0");
   }
