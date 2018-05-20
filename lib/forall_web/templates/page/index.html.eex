@@ -33,10 +33,14 @@
   <div class="text-block col-8 offset-2">
       <select id="weeks-message" class="form-control mt-3">
         <option value="this_weeks_message">This Week's Message</option>
+        <option value="peace_with_god">Peace with God!</option>
         <option value="welcome_to_jesus">Welcome to Jesus</option>
       </select>
       <div id="this_weeks_message" class="weeks-message">
         <%= render "this_weeks_message.html" %>
+      </div>
+      <div id="peace_with_god" class="weeks-message d-none">
+        <%= render "peace_with_god.html" %>
       </div>
       <div id="welcome_to_jesus" class="weeks-message d-none">
         <%= render "welcome_to_jesus.html" %>
